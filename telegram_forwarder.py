@@ -12,12 +12,11 @@ SOURCE_CHANNELS = [
     'nerkhYabkhorasanMarket',
     'aqbazjgani',
     'dollar_tehran3bze',
-    'KabulMarkets'
-    'nerkhedolar1'
-]
+    'KabulMarkets',
+    'nerkhedolar1'   # کانال جدید اضافه شد
 ]
 
-DEST_CHANNEL = 'KhorasanMarkets'
+DEST_CHANNEL = 'KhorasanMarkets'  # کانال مقصد، ربات باید ادمین باشد
 
 # ====== ایجاد کلاینت ربات ======
 client = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
