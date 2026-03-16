@@ -9,13 +9,15 @@ BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
 # ====== کانال‌ها ======
 SOURCE_CHANNELS = [
-    'nerkhYabkhorasanMarket',
-    'aqbazjgani',
-    'dollar_tehran3bze',
-    'KabulMarkets'
+    '@nerkhYabkhorasanMarket',
+    '@aqbazjgani',
+    '@dollar_tehran3bze',
+    '@KabulMarkets'
+    '@nerkhedolar1'
+]
 ]
 
-DEST_CHANNEL = 'KhorasanMarkets'
+DEST_CHANNEL = '@KhorasanMarkets'
 
 # ====== ایجاد کلاینت ربات ======
 client = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
